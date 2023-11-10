@@ -1,0 +1,37 @@
+.wapper {
+  background-color: rgb(250, 247, 212);
+  justify-content: left;
+}
+
+.wapper a:hover {
+  opacity: 0.5;
+}
+
+.title {
+  text-align: center;
+  flex-direction: column;
+  padding: 20px 0px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.title > p {
+  color: gray;
+}
+.item1 {
+  padding-bottom: 30px;
+}
+
+.item1,
+.item2 {
+  justify-content: space-evenly;
+}
+
+.item1 > a,
+.item2 > a {
+  padding: 0;
+}
+
+.item2 {
+  padding: 30px;
+}

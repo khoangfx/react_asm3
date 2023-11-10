@@ -1,0 +1,18 @@
+.wapper {
+  background-color: #333;
+  color: #fff;
+  justify-content: space-around;
+  text-align: left;
+  padding: 50px;
+}
+
+.wapper > div > h3 {
+  margin-bottom: 20px;
+}
+
+.wapper > div > a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+}

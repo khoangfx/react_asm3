@@ -1,0 +1,52 @@
+.wapper {
+  font-style: italic;
+}
+
+.item1 {
+  padding: 100px;
+  justify-content: space-between;
+  background-color: gray;
+  margin-bottom: 40px;
+}
+
+.item1 span {
+  color: rgb(87, 87, 87);
+}
+
+.form {
+  width: 66.66666667% !important;
+}
+
+.form > input {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.form > button {
+  color: #fff;
+  background-color: #333;
+  border: none;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.order {
+  width: 33.33333333% !important;
+  background-color: gray;
+  font-style: italic;
+  height: max-content;
+  padding: 20px;
+}
+
+.order ul {
+  list-style-type: none;
+}
+
+.order li {
+  border-bottom: 1px solid;
+  padding: 20px 0;
+}

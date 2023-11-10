@@ -1,0 +1,20 @@
+.wapper {
+  font-style: italic;
+}
+
+.wapper > div {
+  width: 20% !important;
+}
+
+.wapper img {
+  width: 100%;
+}
+
+.wapper h2 {
+  display: block;
+  width: 100% !important;
+}
+
+.wapper h3 {
+  font-size: 18px;
+}

@@ -1,0 +1,53 @@
+.itemImg1 {
+  width: 16.66666667% !important;
+}
+
+.itemImg1 > img {
+  width: 90%;
+  display: inline-block;
+  padding: 10px;
+}
+
+.itemImg2 {
+  width: 33.33333333% !important;
+}
+
+.itemImg2 > img {
+  width: 100%;
+  padding: 10px;
+}
+
+.itemImg3 {
+  width: 50% !important;
+  font-style: italic;
+}
+
+.itemImg3 > p {
+  color: gray;
+}
+
+.itemImg3 > strong > span {
+  text-transform: capitalize;
+}
+
+.itemImg3 button {
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.wapperDes {
+  font-style: italic;
+}
+
+.itemDes {
+  width: 20%;
+  background-color: #333;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.wapperDes p {
+  color: gray;
+}

@@ -1,0 +1,58 @@
+.item {
+  width: 500px;
+  margin-top: 100px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #fff;
+  background-size: cover;
+}
+
+.wapper {
+ 
+  background-size: contain;
+  background-clip: border-box;
+  height: 1000px;
+}
+.wapper button,
+.wapper input {
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.wapper button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: none;
+  background-color: #333;
+  font-size: 18px;
+  color: #fff;
+  font-style: italic;
+}
+
+.wapper p {
+  text-align: center;
+  padding: 50px;
+  font-style: italic;
+}
+
+.wapper h4 {
+  text-align: center;
+  padding: 60px;
+  font-size: 40px;
+  color: gray;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.wapper a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  font-style: italic;
+}
+
+.wapper span {
+  color: blue;
+}

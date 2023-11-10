@@ -1,0 +1,36 @@
+.item1 {
+  justify-content: space-evenly;
+  padding: 50px;
+  background-color: rgba(128, 128, 128, 0.555);
+  font-style: italic;
+}
+
+.item1 > div > p {
+  color: gray;
+}
+
+.item2 {
+  justify-content: space-around;
+  padding: 20px;
+  font-style: italic;
+}
+
+.item2 p {
+  color: gray;
+}
+
+.item2 > div > input {
+  padding: 20px;
+  margin-right: 10px;
+}
+
+item2 > div {
+  width: 100%;
+}
+
+.item2 > div > button {
+  padding: 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+}

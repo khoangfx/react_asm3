@@ -1,0 +1,87 @@
+.item1 {
+  padding: 100px 50px;
+  background-color: gray;
+  font-style: italic;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.item1 > p {
+  color: rgb(80, 80, 80);
+}
+
+.item2 {
+  margin-bottom: 20px;
+}
+.wapper {
+  font-style: italic;
+}
+
+.wapper > h3 {
+  padding: 20px 0;
+}
+
+.table {
+  width: 66.66666667% !important;
+}
+
+.table thead > tr {
+  background-color: gray;
+}
+.table thead > tr > th {
+  padding: 30px;
+  text-align: center;
+}
+
+.table tbody > tr > td {
+  padding: 20px;
+  text-align: center;
+}
+
+.table tbody > tr > td input {
+  width: 30%;
+  border: none;
+}
+
+.table tbody > tr > td > img {
+  width: 100%;
+}
+
+.btn {
+  justify-content: space-between;
+  padding: 20px;
+  background-color: gray;
+  width: 98%;
+}
+
+.btn button {
+  background-color: gray;
+  font-style: italic;
+  border: none;
+}
+
+.total {
+  width: 33.33333333% !important;
+  background-color: gray;
+  padding: 20px;
+}
+
+.total > h6 {
+  font-weight: 100;
+  border-bottom: 1px solid;
+  padding: 10px 0;
+}
+
+.total > button,
+.total > input {
+  display: block;
+  width: 80%;
+  margin: auto;
+  font-style: italic;
+}
+
+.total > button {
+  color: #fff;
+  background-color: #333;
+  border: none;
+}

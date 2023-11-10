@@ -1,0 +1,32 @@
+.item1 {
+  text-align: left;
+  flex-direction: column;
+  padding: 20px 20px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.item1 > p {
+  color: gray;
+}
+.item2 {
+  flex-direction: row;
+  padding: 20px;
+}
+
+.item2 > div {
+  width: 25% !important;
+  padding: 10px 5px;
+  font-style: italic;
+}
+
+.item2 > div > img {
+  width: 70%;
+}
+
+.item2 > div > p {
+  font-weight: bold;
+}
+.item2 > div > b {
+  color: gray;
+}

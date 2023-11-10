@@ -1,0 +1,18 @@
+.input {
+  padding: 10px 20px;
+}
+
+.item {
+  width: 25%;
+  display: inline-block;
+  padding: 20px;
+  font-style: italic;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item h3 {
+  font-size: 18px;
+}

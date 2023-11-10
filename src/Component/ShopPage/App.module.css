@@ -1,0 +1,51 @@
+.item1 {
+  padding: 60px 100px;
+  background-color: gray;
+  font-style: italic;
+  justify-content: space-between;
+}
+
+.item1 > p {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+}
+
+.item2 {
+}
+
+.category {
+  width: 25% !important;
+  padding: 30px 0px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.category h4 {
+  color: #333;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+.category h5 {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.category ul {
+  list-style-type: none;
+}
+
+.category ul > li {
+  padding: 10px 0;
+}
+
+.category ul > li > a {
+  text-decoration: none;
+  color: gray;
+}
+
+.view {
+  width: 75% !important;
+}

@@ -1,0 +1,47 @@
+.wapper {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.container {
+  width: 1000px;
+  position: relative;
+  z-index: 1;
+  top: 100px;
+  left: 120px;
+
+  background-color: #fff;
+  padding: 20px;
+}
+
+.item1,
+.item2 {
+  width: 50% !important;
+}
+.item1 > img {
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+}
+
+.item2 > div > button {
+  border: none;
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  font-size: 18px;
+  background-color: #fff;
+  float: right;
+}
+
+.item2 {
+  font-style: italic;
+}
+
+.item2 > button {
+  border: none;
+}
